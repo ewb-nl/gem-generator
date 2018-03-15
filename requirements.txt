@@ -1,0 +1,17 @@
+camera-calibration-parsers==1.11.13
+catkin==0.7.8
+decorator==4.2.1
+gencpp==0.5.5
+geneus==2.2.6
+genlisp==0.4.16
+genmsg==0.5.9
+gennodejs==2.0.1
+genpy==0.6.7
+message-filters==1.12.12
+networkx==2.1
+numpy==1.14.2
+pluginlib==1.11.2
+roslib==1.13.6
+scipy==1.0.0
+sensor-msgs==1.12.5
+-e git+https://github.com/mikedh/trimesh.git@85f305ac3aa0e120acd76f1d22717f983acb39b0#egg=trimesh&subdirectory=../../../ext/trimesh

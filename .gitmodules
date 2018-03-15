@@ -1,0 +1,6 @@
+[submodule "ext/trimesh"]
+	path = ext/trimesh
+	url = https://github.com/mikedh/trimesh.git
+[submodule "ext/blender-addons-contrib"]
+	path = ext/blender-addons-contrib
+	url = git://git.blender.org/blender-addons-contrib.git
