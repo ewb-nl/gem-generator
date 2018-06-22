@@ -9,6 +9,12 @@ https://git.blender.org/gitweb/gitweb.cgi/blender-addons-contrib.git/tree/HEAD:/
 Description is here:
 https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add_Mesh/Rock_Generator
 
+Once you have downloaded the add on, make sure the folder is called 'add_mesh_rocks' and 'move it to the scripts/addon subfolder of your blender installation. In windows this is something like c://program files/blender foundation/blender/${version_number} and in linux it's something like /usr/share/blender/.
+
+Then in blender, head to File->User Preferences->Add-ons and activate the Rock Generator. 
+
+You can generate a new rock by heading to Add->Mesh->Rock Generator in the bottom left of the screen.
+
 ### blender source code
 http://git.blender.org/blender.git
 
@@ -49,4 +55,6 @@ In blender, you can load the gem meshes and visualize the shape. Additionally, y
 
 Note that the dimentions of the mesh are saved in dm.
 
+## Running the generator
+blender --background --python myscript.py
 

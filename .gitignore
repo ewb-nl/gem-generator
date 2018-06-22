@@ -87,6 +87,10 @@ celerybeat-schedule
 venv/
 ENV/
 
+# Eclipse
+.project
+.pydevproject
+
 # Spyder project settings
 .spyderproject
 .spyproject

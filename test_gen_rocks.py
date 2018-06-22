@@ -1,8 +1,8 @@
 import numpy as np
 import trimesh
 
-import bpy
-from rockgen import rocks
+#import bpy
+from ext.blender-addons-contrib.add_mesh_rocks.rockgen import rocks
 
 context = bpy.context()
 rocks = rocks()
@@ -13,7 +13,7 @@ rocks.execute(context)
 trimesh.util.attach_to_log()
 
 # load a file by name or from a buffer
-mesh = trimesh.load('/home/kirk/Dropbox/EWB/facets/gem_generator/gems/gem1.stl')
+mesh = trimesh.load('gems/gem1.stl')
 mesh.units = 'm'
 
 print dir(mesh)
